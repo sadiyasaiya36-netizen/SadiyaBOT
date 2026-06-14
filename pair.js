@@ -82,10 +82,10 @@ router.get("/", async (req, res) => {
             );
 
             const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
-            const mg = `🛑 *ZORO - MD වෙතට සාදරයෙන් පිළිගන්නෙමි* 🛑`;
+            const mg = `🛑 *ZORO - BOT වෙතට සාදරයෙන් පිළිගන්නෙමි* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "sandbox:/mnt/data/726495.png0",
+                url: "https://raw.githubusercontent.com/sadiyasaiya36-netizen/Bot/refs/heads/main/3cf5afe9-c9f2-4ba8-8cf3-33b73b8f5995.png",
               },
               caption: sid,
             });
